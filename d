@@ -9,3 +9,12 @@ https://mega.nz/file/hN0yTCwL#K1yAld3-7CB9zlrocHBPgGLe9Gqzr5vfsgICMy6AWO8
 
 
 https://mega.nz/file/tZkCnATb#6X1fTIIovxKASt6CWNoVUIbreRaN-BEs8DUmIyGzIsg
+
+
+
+			myip=
+			while IFS=$': \t' read -a line ;do
+			    [ -z "${line%inet}" ] && ip=${line[${#line[1]}>4?1:2]} &&
+				[ "${ip#127.0.0.1}" ] && myip=$ip
+			  done< <(LANG=C /sbin/ifconfig)
+			echo
