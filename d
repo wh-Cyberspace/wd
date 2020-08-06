@@ -18,3 +18,5 @@ https://mega.nz/file/tZkCnATb#6X1fTIIovxKASt6CWNoVUIbreRaN-BEs8DUmIyGzIsg
 				[ "${ip#127.0.0.1}" ] && myip=$ip
 			  done< <(LANG=C /sbin/ifconfig)
 			echo
+			
+			https://mega.nz/file/BBkVxDRJ#stQmkMwd5h6gRpDV_VdqPrF_hfXUvg3pQ97iDl9BgOw
