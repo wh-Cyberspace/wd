@@ -10,4 +10,9 @@
 			  done< <(LANG=C /sbin/ifconfig)
 			echo
 			
-			https://mega.nz/file/BBkVxDRJ#stQmkMwd5h6gRpDV_VdqPrF_hfXUvg3pQ97iDl9BgOw
+			
+			
+			
+			
+			
+			
